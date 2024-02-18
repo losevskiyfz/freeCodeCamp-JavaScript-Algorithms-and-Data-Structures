@@ -1,2 +1,2 @@
 # freeCodeCamp-JavaScript-Algorithms-and-Data-Structures
-All my JavaScript projects from freeCodeCamp course
+See my JS projects. Follow the link: https://codepen.io/ajarsuss-the-solid
