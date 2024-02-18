@@ -1,0 +1,23 @@
+header, #search-panel, #pokemon-individual-info-panel, #pokemon-general-info-panel{
+    text-align: center;
+    max-width: 400px;
+    border: solid 1px black;
+    margin: auto;
+    padding: 10px;
+}
+
+#search-panel, #pokemon-individual-info-panel, #pokemon-general-info-panel{
+    border-top: none;
+}
+
+#pokemon-individual-info-panel{
+    height: 250px;
+}
+
+#pokemon-general-info-panel{
+    height: 150px;
+}
+
+div{
+    margin: 4px auto;
+}

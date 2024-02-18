@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+h1, main{
+    width: 40%;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    background-color:aqua;
+    border: solid 1px black;
+}
+
+#purchase-div{
+    text-align: center;
+    background-color: rgb(180, 212, 239);
+    overflow: hidden;
+    border: solid 1px black;
+    border-top: none;
+}
+
+#change-due{
+    padding: 5px;
+    display: none;
+    text-align: center;
+    border: solid 1px black;
+    border-top: none;
+    background-color: aliceblue;
+}
+
+#price{
+    background-color: aliceblue;
+    border: solid 1px black;
+    border-top: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+#change-in-draw{
+    background-color: rgb(220, 231, 240);
+    border: solid 1px black;
+    border-top: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+#cash{
+    margin: 5px;
+}
+
+#purchase-btn{
+    margin: 5px auto;
+    display: block;
+}

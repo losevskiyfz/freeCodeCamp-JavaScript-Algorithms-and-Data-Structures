@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#input-panel{
+    margin: auto;
+    text-align: center;
+}
+
+#number{
+    max-width: 400px;
+    width: 85%;
+    font-size: 1.4rem;
+}
+
+#convert-btn{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+#output{
+    margin: 20px auto;
+    max-width: 400px;
+    width: 85%;
+    font-size: 1.8rem;
+    min-height: 2rem;
+    text-align: center;
+    background-color: azure;
+    border: black 1px solid;
+}
+
+main{
+    background-color: orange;
+    padding: 20px;
+}
+
+header{
+    background-color: azure;
+    border: black 1px solid;
+    box-sizing: border-box;
+}

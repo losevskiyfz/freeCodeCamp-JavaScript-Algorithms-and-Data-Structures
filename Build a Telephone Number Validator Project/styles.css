@@ -1,0 +1,19 @@
+html{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+main{
+    text-align: center;
+}
+
+#results-div{
+    margin: 14px auto;
+}
