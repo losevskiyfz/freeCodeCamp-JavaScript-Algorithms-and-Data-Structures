@@ -4,7 +4,7 @@ const outputField = document.getElementById("output");
 const romanLiterals = ['I', 'V', 'X', 'L', 'C', 'D', 'M'];
 
 const isInputEmpty = () => input.value === "";
-const HasNotAllowedSymbol = () => /[^\d-]/.test(input.value) || /-\D/.test(input.value);
+const hasNotAllowedSymbol = () => /[^\d-]/.test(input.value) || /-\D/.test(input.value);
 const isInputLessThanOne = () => input.value < 1;
 const isInputMoreOrEqualsThenFourHundreds = () => input.value >= 4000;
 
@@ -14,7 +14,7 @@ const setOutputText = (textToSet) => {
 
 const checkInput = () => {
     
-    if(isInputEmpty() || HasNotAllowedSymbol()){
+    if(isInputEmpty() || hasNotAllowedSymbol()){
         setOutputText("Please enter a valid number");
     }
     else if(isInputLessThanOne()){
